@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BarrelBook - Legal Documents</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            color: #D97843;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .nav {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .nav a {
+            display: inline-block;
+            padding: 12px 24px;
+            margin: 0 10px;
+            background: #D97843;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: all 0.3s;
+        }
+        
+        .nav a:hover {
+            background: #c56633;
+            transform: translateY(-2px);
+        }
+        
+        .content {
+            display: none;
+        }
+        
+        .content.active {
+            display: block;
+        }
+        
+        h2 {
+            color: #D97843;
+            margin-top: 30px;
+        }
+        
+        .app-icon {
+            text-align: center;
+            font-size: 80px;
+            margin-bottom: 20px;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #666;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="app-icon">🥃</div>
+        <h1>BarrelBook Legal</h1>
+        
+        <div class="nav">
+            <a href="#privacy" onclick="showDocument('privacy')">Privacy Policy</a>
+            <a href="#terms" onclick="showDocument('terms')">Terms of Service</a>
+        </div>
+        
+        <div id="privacy" class="content active">
+            <h1>Privacy Policy</h1>
+            <p><strong>Last Updated: January 19, 2025</strong></p>
+            
+            <h2>Introduction</h2>
+            <p>Welcome to BarrelBook. We respect your privacy and are committed to protecting your personal data.</p>
+            
+            <h2>Information We Collect</h2>
+            <ul>
+                <li>Account information (email if provided)</li>
+                <li>Bottle collection data</li>
+                <li>Photos of your bottles</li>
+                <li>Anonymous usage data</li>
+            </ul>
+            
+            <h2>How We Use Your Information</h2>
+            <ul>
+                <li>To provide and maintain the service</li>
+                <li>To sync your collection across devices</li>
+                <li>To analyze bottles using AI</li>
+                <li>To improve the app</li>
+            </ul>
+            
+            <h2>Data Security</h2>
+            <p>We use industry-standard security measures including:</p>
+            <ul>
+                <li>Encryption in transit and at rest</li>
+                <li>Secure authentication</li>
+                <li>Isolated user data</li>
+            </ul>
+            
+            <h2>Your Rights</h2>
+            <ul>
+                <li>Access your data anytime</li>
+                <li>Export your collection</li>
+                <li>Delete your account and data</li>
+            </ul>
+            
+            <h2>Contact</h2>
+            <p>Questions? Email us at privacy@barrelbook.app</p>
+        </div>
+        
+        <div id="terms" class="content">
+            <h1>Terms of Service</h1>
+            <p><strong>Last Updated: January 19, 2025</strong></p>
+            
+            <h2>1. Acceptance</h2>
+            <p>By using BarrelBook, you agree to these terms.</p>
+            
+            <h2>2. Age Requirement</h2>
+            <p>You must be 21 or older to use BarrelBook.</p>
+            
+            <h2>3. Acceptable Use</h2>
+            <p>You may use BarrelBook for personal, non-commercial purposes only.</p>
+            
+            <h2>4. Your Content</h2>
+            <p>You retain ownership of your content. You grant us a license to store and process it.</p>
+            
+            <h2>5. Disclaimers</h2>
+            <p>The app is provided "as is" without warranties. Price data and AI results may not be accurate.</p>
+            
+            <h2>6. Limitation of Liability</h2>
+            <p>We are not liable for any damages arising from your use of the app.</p>
+            
+            <h2>7. Changes</h2>
+            <p>We may update these terms. Continued use constitutes acceptance.</p>
+            
+            <h2>Contact</h2>
+            <p>Questions? Email us at support@barrelbook.app</p>
+        </div>
+        
+        <div class="footer">
+            <p>© 2025 BarrelBook. All rights reserved.</p>
+        </div>
+    </div>
+    
+    <script>
+        function showDocument(doc) {
+            document.querySelectorAll('.content').forEach(el => el.classList.remove('active'));
+            document.getElementById(doc).classList.add('active');
+            window.location.hash = doc;
+        }
+        
+        // Handle direct links
+        if (window.location.hash) {
+            showDocument(window.location.hash.substring(1));
+        }
+    </script>
+</body>
+</html>
