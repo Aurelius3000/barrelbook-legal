@@ -148,7 +148,7 @@ You may not assign these Terms. We may assign our rights to any successor.
 
 For questions about these Terms, please contact us at:
 
-**Email**: support@barrelbook.app  
+**Email**: info@mybarrelbook.com  
 **Developer**: [Your Name]
 
 ---
