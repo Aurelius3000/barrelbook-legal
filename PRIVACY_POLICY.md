@@ -1,120 +1,99 @@
 # Privacy Policy for BarrelBook
 
-**Last Updated: January 19, 2025**
+**Last Updated: August 16, 2025**
 
-## Introduction
+## 1. Introduction
 
-Welcome to BarrelBook ("we," "our," or "us"). We respect your privacy and are committed to protecting your personal data. This privacy policy explains how we collect, use, and safeguard your information when you use our iOS application.
+This Privacy Policy explains how BarrelBook ("we," "our," or "us") collects, uses, and protects your personal information when you use our mobile app ("the App").
 
-## Information We Collect
+By using the App, you agree to the collection and use of your information in accordance with this Privacy Policy.
+
+## 2. Information We Collect
 
 ### Information You Provide
-- **Account Information**: When you create an account, we collect your email address (if you choose to upgrade from guest access)
-- **Bottle Collection Data**: Information about whiskey bottles you add, including photos, names, prices, and notes
-- **Photos**: Images you capture or upload of your whiskey bottles
 
-### Information Collected Automatically
-- **Anonymous User ID**: A unique identifier assigned when you first use the app
-- **Usage Data**: Basic analytics about app features used (if analytics are enabled)
-- **Device Information**: iOS version and device type for compatibility
+- **Account Information:** Email address, password, display name, age verification.
+- **Bottle Data:** Information you add or confirm about bottles (brand, release, proof, price, fill level, notes, etc.).
+- **Photos & Media:** Images you capture or upload of bottles.
 
-### Information We Don't Collect
-- We do NOT collect location data
-- We do NOT access your contacts
-- We do NOT track you across other apps or websites
+### Information We Collect Automatically
 
-## How We Use Your Information
+- **Device Information:** Device type, operating system, app version.
+- **Usage Data:** Features used, frequency of scans, interactions with catalog.
+- **Log Data:** Crash reports, error logs, performance metrics.
+
+### Information from Third Parties
+
+- **AI Services:** Photos you submit for scanning may be temporarily processed by AI services (e.g., OpenAI) to extract data. Images and metadata are not retained beyond processing.
+
+## 3. How We Use Your Information
 
 We use your information to:
-- **Provide Core Functionality**: Store and sync your whiskey collection
-- **Enable AI Features**: Analyze bottle images to extract information (images are processed but not stored by third parties)
-- **Improve the App**: Understand usage patterns and fix bugs
-- **Authenticate Users**: Manage your account and ensure data security
 
-## Data Storage and Security
+- Provide and improve the App’s features (cataloging, scanning, valuation).
+- Sync your bottle data and images across devices.
+- Support offline use with background upload when online.
+- Enable you to share selected bottles or collections with friends you choose.
+- Send important notices, such as security updates or Terms changes.
 
-### Where Your Data is Stored
-- **Primary Database**: Google Firebase Firestore (encrypted at rest)
-- **Photos**: Stored in Firebase with your bottle data
-- **Local Device**: Cached data for offline access
+## 4. Sharing & Visibility
 
-### Security Measures
-- All data transmissions are encrypted using TLS
-- Firebase Authentication protects your account
-- Each user's data is isolated and inaccessible to other users
-- We use Firebase Security Rules to enforce access controls
+### Private by Default
 
-## Third-Party Services
+Your catalog, photos, and notes are private to your account unless you choose to share them.
 
-We use the following third-party services:
+### Friend Sharing
 
-### Firebase (Google)
-- **Purpose**: Authentication, database, and analytics
-- **Data Shared**: Account info, bottle data, usage analytics
-- **Privacy Policy**: https://firebase.google.com/support/privacy
+If you share bottles or collections with friends, those users will be able to view the shared photos, data, and notes.
 
-### OpenAI
-- **Purpose**: AI-powered bottle recognition and data extraction
-- **Data Shared**: Bottle images (temporarily processed, not stored)
-- **Privacy Policy**: https://openai.com/policies/privacy-policy
-- **Note**: Images are only sent for processing when you explicitly scan a bottle
+We cannot prevent recipients from saving, copying, or redistributing your shared content outside the App.
 
-## Your Rights and Choices
+### No Public Posting
 
-### Data Control
-- **Access**: View all your data within the app
-- **Export**: Download your collection data at any time
-- **Delete**: Remove individual bottles or delete your entire account
-- **Portability**: Export your data in standard formats
+BarrelBook does not make your catalog or photos publicly visible on the internet. Sharing is limited to the friends you select.
 
-### Account Types
-- **Guest Account**: Anonymous access with limited data persistence
-- **Registered Account**: Full features with data backup and sync
+### Third Parties
 
-### Opt-Out Options
-- You can use the app without creating an account (guest mode)
-- You can disable photo uploads and use manual entry only
-- You can delete your account and all associated data at any time
+We do not sell or rent your personal information to third parties.
 
-## Data Retention
+Limited third-party services (e.g., AI providers, Firebase) process data to deliver features. These providers are contractually bound to protect your information.
 
-- **Active Accounts**: We retain your data as long as your account is active
-- **Inactive Accounts**: Guest accounts may be deleted after 180 days of inactivity
-- **Deleted Accounts**: Data is permanently deleted within 30 days of account deletion
-- **Local Photos**: Cached photos are automatically cleaned up after 7 days
+## 5. Your Rights & Choices
 
-## Children's Privacy
+- **Access & Correction:** You can view and edit your account information and catalog entries at any time.
+- **Deletion:** You may delete your account through the App, which will remove your personal information after a reasonable retention period.
+- **Sharing Controls:** You choose whether to share bottles or collections and with whom.
 
-BarrelBook is not intended for users under 21 years of age. We do not knowingly collect personal information from anyone under 21. If we learn we have collected information from someone under 21, we will delete that information.
+## 6. Data Retention
 
-## International Users
+- **Bottle Photos & Data:** Stored as long as your account is active.
+- **Shared Content:** Remains accessible to friends you shared with unless you delete it or revoke access.
+- **AI Processing:** Photos sent for AI extraction are retained for ≤30 days for quality assurance and never used for training.
 
-Your data may be transferred to and processed in the United States where our service providers are located. By using BarrelBook, you consent to this transfer.
+## 7. Security
 
-## Changes to This Policy
+We protect your data using industry-standard encryption:
 
-We may update this privacy policy from time to time. We will notify you of any changes by:
-- Updating the "Last Updated" date
-- Showing an in-app notification for significant changes
-- Requiring your consent for material changes that affect your rights
+- **In Transit:** TLS 1.3
+- **At Rest:** AES-256
+- **Storage:** Data and images stored in U.S.-based regions only.
 
-## Contact Us
+However, no system is 100% secure, and we cannot guarantee absolute protection.
 
-If you have questions about this privacy policy or our data practices, please contact us:
+## 8. Children’s Privacy
 
-**Email**: legal@mybarrelbook.com  
-**Developer**: [Your Name]
+The App is not intended for anyone under the legal drinking age in their jurisdiction. We do not knowingly collect information from underage users.
 
-## California Privacy Rights
+## 9. Changes to This Policy
 
-California residents have additional rights under the CCPA, including:
-- Right to know what personal information is collected
-- Right to delete personal information
-- Right to opt-out of sale of personal information (we do not sell your data)
-- Right to non-discrimination
+We may update this Privacy Policy from time to time. If material changes are made, we will notify you through:
 
-To exercise these rights, contact us at the email above.
+- In-app notifications
+- Email (if you have a registered account)
 
----
+## 10. Contact Us
 
-By using BarrelBook, you agree to this Privacy Policy.
+If you have questions about this Privacy Policy, please contact us:
+
+**Email:** info@mybarrelbook.com  
+**Developer:** BarrelBook
